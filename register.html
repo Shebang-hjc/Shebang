@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <link rel = "stylesheet" type="text/css" href="theme.css" >          
+        <title>Login</title>
+    </head>
+
+    <body>
+
+        <form action="login.html" method="post">
+
+            <h3>欢迎来到贪吃蛇大作战！</h3> 
+
+            <div class="divForm">
+                <div>
+                    <label> 请输入用户名：</label>
+                    <input type="text" name="username"/>
+                </div>
+
+                <br>
+
+                <div>
+                    <label> 请您输入密码：</label>
+                    <input type="password" name="password">
+                </div>
+
+                <br>
+
+                <div>
+                    <label> 请您确认密码：</label>
+                    <input type="password" name="repeat_password">
+                </div>
+
+                <br>
+
+                <div>
+                    <input type="submit" value=" 注册" onclick="display_success()">
+                    <script type="text/javascript">
+                        function display_success(){
+                            alert("注册成功");
+                        }
+                    </script>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
